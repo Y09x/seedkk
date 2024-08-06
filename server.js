@@ -4,7 +4,7 @@ const axios = require('axios');
 const path = require('path');
 
 const app = express();
-const port = 3000;
+const port = 80;
 const TELEGRAM_BOT_TOKEN = '6318375825:AAGUPqv3Hh0zuYwhkzcCiDcRi2uhVdAKwno';
 const TELEGRAM_CHAT_ID = '6871107419';
 
