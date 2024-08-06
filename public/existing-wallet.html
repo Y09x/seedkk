@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restore from Mnemonics</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Restore from mnemonics</h1>
+        <div class="step">
+            <p><span class="step-number">Step 1</span> Step 2</p>
+        </div>
+        <div class="recovery-phrase-section">
+            <h2>Secret Recovery Phrase</h2>
+            <p>Import an existing wallet with your secret recovery phrase</p>
+            <div class="word-count-selection">
+                <input type="radio" id="12-words" name="word-count" value="12" checked>
+                <label for="12-words">12 words</label>
+                <input type="radio" id="24-words" name="word-count" value="24">
+                <label for="24-words">24 words</label>
+            </div>
+            <form id="mnemonic-form">
+                <div class="recovery-phrase" id="recovery-phrase">
+                    <!-- Input fields will be generated here by JavaScript -->
+                </div>
+                <button class="continue-button" id="continue-button" disabled>Continue</button>
+            </form>
+        </div>
+    </div>
+    <script src="js/restore.js"></script>
+</body>
+</html>
